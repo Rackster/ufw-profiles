@@ -1,0 +1,6 @@
+# source: http://en.wikipedia.org/wiki/MySQL
+
+[mysql]
+title=MySQL
+description=MySQL is the world's second most widely used relational database management system (RDBMS) and most widely used open-source RDBMS
+ports=3306/tcp

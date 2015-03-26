@@ -1,0 +1,16 @@
+# source: https://en.wikipedia.org/wiki/Domain_Name_System
+
+[dns-tcp]
+title=Domain Name System TCP
+description=The Domain Name System (DNS) is a hierarchical distributed naming system for computers, services, or any resource connected to the Internet or a private network
+ports=53/tcp
+
+[dns-udp]
+title=Domain Name System UDP
+description=The Domain Name System (DNS) is a hierarchical distributed naming system for computers, services, or any resource connected to the Internet or a private network
+ports=53/udp
+
+[dns-full]
+title=Domain Name System Full
+description=The Domain Name System (DNS) is a hierarchical distributed naming system for computers, services, or any resource connected to the Internet or a private network
+ports=53

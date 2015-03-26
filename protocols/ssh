@@ -1,0 +1,14 @@
+[ssh-tcp]
+title=Secure Shell (TCP)
+description=Secure Shell, or SSH, is a cryptographic (encrypted) network protocol for initiating text-based shell sessions on remote machines in a secure way
+ports=22/tcp
+
+[ssh-udp]
+title=Secure Shell (UDP)
+description=Secure Shell, or SSH, is a cryptographic (encrypted) network protocol for initiating text-based shell sessions on remote machines in a secure way
+ports=22/udp
+
+[ssh-full]
+title=Secure Shell (Full)
+description=Secure Shell, or SSH, is a cryptographic (encrypted) network protocol for initiating text-based shell sessions on remote machines in a secure way
+ports=22

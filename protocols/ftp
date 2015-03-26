@@ -1,0 +1,26 @@
+# source: https://en.wikipedia.org/wiki/File_Transfer_Protocol
+
+[ftp-control]
+title=File Transfer Protocol (Control)
+description=The File Transfer Protocol (FTP) is a standard network protocol used to transfer computer files from one host to another host over a TCP-based network, such as the Internet
+ports=21/tcp
+
+[ftp-data-active]
+title=File Transfer Protocol (Data Actove)
+description=The File Transfer Protocol (FTP) is a standard network protocol used to transfer computer files from one host to another host over a TCP-based network, such as the Internet
+ports=20/tcp
+
+[ftp-data-passive]
+title=File Transfer Protocol (Data Passive)
+description=The File Transfer Protocol (FTP) is a standard network protocol used to transfer computer files from one host to another host over a TCP-based network, such as the Internet
+ports=50000:51000/tcp
+
+[ftp-full-active]
+title=File Transfer Protocol (Active)
+description=The File Transfer Protocol (FTP) is a standard network protocol used to transfer computer files from one host to another host over a TCP-based network, such as the Internet
+ports=20,21/tcp
+
+[ftp-full-passive]
+title=File Transfer Protocol (Passive)
+description=The File Transfer Protocol (FTP) is a standard network protocol used to transfer computer files from one host to another host over a TCP-based network, such as the Internet
+ports=21,50000:51000/tcp

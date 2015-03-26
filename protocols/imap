@@ -1,0 +1,16 @@
+# source: https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
+
+[imap]
+title=Internet Message Access Protocol
+description=Internet Message Access Protocol (IMAP) is a protocol for e-mail retrieval and storage developed by Mark Crispin in 1986 at Stanford University as an alternative to POP
+ports=143/tcp
+
+[imaps]
+title=Internet Message Access Protocol (over SSL)
+description=Internet Message Access Protocol (IMAP) is a protocol for e-mail retrieval and storage developed by Mark Crispin in 1986 at Stanford University as an alternative to POP
+ports=993/tcp
+
+[imap-full]
+title=Internet Message Access Protocol (Full)
+description=Internet Message Access Protocol (IMAP) is a protocol for e-mail retrieval and storage developed by Mark Crispin in 1986 at Stanford University as an alternative to POP
+ports=143,993/tcp

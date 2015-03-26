@@ -1,0 +1,26 @@
+# source: http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+
+[http]
+title=Hypertext Transfer Protocol
+description=HTTP is the foundation of data communication for the World Wide Web
+ports=80/tcp
+
+[https]
+title=Hypertext Transfer Protocol (over SSL)
+description=HTTP is the foundation of data communication for the World Wide Web
+ports=443/tcp
+
+[http-alt]
+title=Hypertext Transfer Protocol (Alternative)
+description=HTTP is the foundation of data communication for the World Wide Web
+ports=8080/tcp
+
+[http-full]
+title=Hypertext Transfer Protocol (Full)
+description=HTTP is the foundation of data communication for the World Wide Web
+ports=80,443/tcp
+
+[http-extra]
+title=Hypertext Transfer Protocol (Extra)
+description=HTTP is the foundation of data communication for the World Wide Web
+ports=80,443,8080/tcp
